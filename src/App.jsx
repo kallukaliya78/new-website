@@ -102,13 +102,13 @@ const SyllabusPage = ({ classNumber, onBack }) => {
 
   return (
     <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 animate-fade-in">
-        <style>{`.animate-fade-in { animation: fadeIn 0.5s ease-in-out; } @keyframes fadeIn { 0% { opacity: 0; transform: translateY(10px); } 100% { opacity: 1; transform: translateY(0); } }`}</style>
+        <style>{.animate-fade-in { animation: fadeIn 0.5s ease-in-out; } @keyframes fadeIn { 0% { opacity: 0; transform: translateY(10px); } 100% { opacity: 1; transform: translateY(0); } }}</style>
       <header className="text-center mb-8">
         <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-indigo-400">
           Syllabus for Class {classNumber}
         </h1>
         <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400">
-          Here is a snapshot of the topics for the ANMC championship quiz.
+          Here is a snapshot of the topics for the RNMC championship quiz.
         </p>
       </header>
 
@@ -153,7 +153,7 @@ export default function App() {
     { subject: "Maths", count: 5, icon: "➗" },
     { subject: "IQ", count: 5, icon: "🧩" },
     { subject: "Physics", count: 3, icon: "🧪" },
-    { subject: "Chemistry", count: 3, icon: "⚗️" },
+    { subject: "Chemistry", count: 3, icon: "⚗" },
     { subject: "Biology", count: 4, icon: "🧬" },
   ];
 
@@ -170,17 +170,17 @@ export default function App() {
 
   const MainContent = () => (
     <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 animate-fade-in">
-       <style>{`.animate-fade-in { animation: fadeIn 0.5s ease-in-out; } @keyframes fadeIn { 0% { opacity: 0; transform: translateY(10px); } 100% { opacity: 1; transform: translateY(0); } }`}</style>
+       <style>{.animate-fade-in { animation: fadeIn 0.5s ease-in-out; } @keyframes fadeIn { 0% { opacity: 0; transform: translateY(10px); } 100% { opacity: 1; transform: translateY(0); } }}</style>
       {/* Header */}
       <header className="text-center mb-16">
         <div className="inline-flex items-center justify-center bg-cyan-500/10 text-cyan-400 p-3 rounded-full mb-4">
           <Trophy className="w-8 h-8" />
         </div>
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-indigo-400">
-          ANMC — Kerala State Level Championship
+          RNMC — Kerala State Level Championship
         </h1>
-        <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400">
-          A secure, professional quiz platform for learners (classes 6 → 12). Fast, fair and certificate-backed.
+        <p className="mt-4 max-w-3xl mx-auto text-lg text-slate-400">
+          Welcome to the Ramanujan National Mathematics Competition (RNMC), a secure, professional quiz platform for learners (classes 6 → 12). Fast, fair and certificate-backed.
         </p>
       </header>
 
@@ -244,8 +244,8 @@ export default function App() {
             ))}
           </div>
            <p className="mt-4 text-xs text-slate-400 border-t border-slate-700 pt-2">
-            <span className="font-bold text-cyan-400">Note:</span> Classes 11 & 12 have a revised syllabus including English. See details on their respective pages.
-          </p>
+             <span className="font-bold text-cyan-400">Note:</span> Classes 11 & 12 have a revised syllabus including English. See details on their respective pages.
+           </p>
         </FeatureCard>
 
         <FeatureCard icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>} title="Fair Syllabus Matching">
@@ -309,40 +309,40 @@ export default function App() {
         <div className="lg:col-span-3 p-6 rounded-2xl bg-gradient-to-br from-cyan-500/20 to-indigo-500/20 border border-slate-700/50 flex flex-col justify-center">
           <h3 className="text-2xl font-bold text-white">Ready to Participate?</h3>
           <p className="text-slate-300 mt-2 mb-6">Secure your spot in the championship. The registration fee is just <span className="font-bold text-cyan-300">₹119</span>.</p>
-          <a href="https://anmc-kerala-cham.formaloo.co/2enj8o" target="_blank" rel="noreferrer" className="inline-block self-start px-8 py-3 rounded-full bg-cyan-400 text-slate-900 font-bold hover:bg-cyan-300 transition-colors shadow-[0_0_20px_theme(colors.cyan.500/30%)]">
+          <a href="https://rnmc-kerala-cham.formaloo.co/2enj8o" target="_blank" rel="noreferrer" className="inline-block self-start px-8 py-3 rounded-full bg-cyan-400 text-slate-900 font-bold hover:bg-cyan-300 transition-colors shadow-[0_0_20px_theme(colors.cyan.500/30%)]">
             Register Now
           </a>
         </div>
         <div className="lg:col-span-2 p-6 rounded-2xl bg-slate-800/50 border border-slate-700/50">
            <h3 className="text-lg font-semibold text-slate-200 mb-2">Key Dates</h3>
            <div className="space-y-3 text-sm">
-              <div className="flex items-start gap-3">
-                  <span className="text-cyan-400 mt-0.5">📅</span>
-                  <div>
-                      <p className="font-semibold text-slate-300">Registration Deadline</p>
-                      <p className="text-slate-400">8 October 2025</p>
-                  </div>
-              </div>
-              <div className="flex items-start gap-3">
-                  <span className="text-cyan-400 mt-0.5">🗓️</span>
-                  <div>
-                      <p className="font-semibold text-slate-300">Exam Day</p>
-                      <p className="text-slate-400">Sunday closest to 10 Oct 2025</p>
-                  </div>
-              </div>
                <div className="flex items-start gap-3">
-                  <span className="text-cyan-400 mt-0.5">⏰</span>
-                  <div>
-                      <p className="font-semibold text-slate-300">Exam Window</p>
-                      <p className="text-slate-400">10:00 AM — 5:00 PM</p>
-                  </div>
-              </div>
+                   <span className="text-cyan-400 mt-0.5">📅</span>
+                   <div>
+                       <p className="font-semibold text-slate-300">Registration Deadline</p>
+                       <p className="text-slate-400">8 October 2025</p>
+                   </div>
+               </div>
+               <div className="flex items-start gap-3">
+                   <span className="text-cyan-400 mt-0.5">🗓</span>
+                   <div>
+                       <p className="font-semibold text-slate-300">Exam Day</p>
+                       <p className="text-slate-400">Sunday closest to 10 Oct 2025</p>
+                   </div>
+               </div>
+                <div className="flex items-start gap-3">
+                   <span className="text-cyan-400 mt-0.5">⏰</span>
+                   <div>
+                       <p className="font-semibold text-slate-300">Exam Window</p>
+                       <p className="text-slate-400">10:00 AM — 5:00 PM</p>
+                   </div>
+               </div>
            </div>
         </div>
       </section>
 
       <footer className="mt-24 text-center text-sm text-slate-500">
-        <p>Anmc copyrighted ©</p>
+        <p>RNMC copyrighted ©</p>
       </footer>
     </div>
   );
@@ -360,7 +360,6 @@ export default function App() {
       ) : (
         <MainContent />
       )}
-    </div>
-  );
+    </div>
+  );
 }
-
