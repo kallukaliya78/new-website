@@ -309,7 +309,7 @@ export default function App() {
         <div className="lg:col-span-3 p-6 rounded-2xl bg-gradient-to-br from-cyan-500/20 to-indigo-500/20 border border-slate-700/50 flex flex-col justify-center">
           <h3 className="text-2xl font-bold text-white">Ready to Participate?</h3>
           <p className="text-slate-300 mt-2 mb-6">Secure your spot in the championship. The registration fee is just <span className="font-bold text-cyan-300">₹119</span>.</p>
-          <a href="https://rnmc-kerala-cham.formaloo.co/2enj8o" target="_blank" rel="noreferrer" className="inline-block self-start px-8 py-3 rounded-full bg-cyan-400 text-slate-900 font-bold hover:bg-cyan-300 transition-colors shadow-[0_0_20px_theme(colors.cyan.500/30%)]">
+          <a href="https://anmc-kerala-cham.formaloo.co/2enj8o" target="_blank" rel="noreferrer" className="inline-block self-start px-8 py-3 rounded-full bg-cyan-400 text-slate-900 font-bold hover:bg-cyan-300 transition-colors shadow-[0_0_20px_theme(colors.cyan.500/30%)]">
             Register Now
           </a>
         </div>
